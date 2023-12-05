@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Институт информационных технологий</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/95c8bfd2c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="assets/logo.png" alt="Логотип" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="./index.html">ГЛАВНАЯ</a>
+            </li>
+            <li><a href="./about.html">ОБ ИНСТИТУТЕ</a></li>
+            <li><a href="./course.html">КАФЕДРЫ</a></li>
+            <li><a href="./blog.html">БЛОГ</a></li>
+            <li><a href="./contact.html">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <style>
+        .text-box {
+            color: #cf0; /* Кислотно-зеленый цвет текста */
+        }
+    
+        /* Дополнительные стили для оформления */
+        h1 {
+            color: #cf0; /* Кислотно-зеленый цвет текста для заголовка */
+        }
+    
+        .hero-btn {
+            background-color: #cf0; /* Кислотно-зеленый цвет фона кнопки */
+            color: rgb(0, 0, 0); /* Цвет текста внутри кнопки, чтобы был контрастным */
+        }
+    </style>
+    
+    <div class="text-box">
+        <h1>Институт информационных технологий</h1>
+        <p>Лучшее образование в сфере информационных технологий!</p>
+        <a href="" class="hero-btn">Посетите нас, чтобы узнать больше</a>
+    </div>
+    
+    </section>
+
+    <!-- Курсы -->
+    <section class="course">
+      <h1>Предлагаемые нами специальности</h1>
+      <p>
+        Самые востребованные специальности нашего института
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Прикладная математика и информатика | Системное программирование и компьютерные технологии</h3>
+          <p>
+            Исследования в области прикладной математики и информатики обеспечивают студентов глубоким пониманием
+            фундаментальных математических концепций и их применения в различных областях. Наши программы предоставляют
+            уникальную возможность совмещения теоретических знаний с практическими навыками в информационных
+            технологиях. Обучение в этой области открывает двери для карьер в разработке программного обеспечения, анализе
+            данных, искусственном интеллекте и других востребованных сферах.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Технологии цифрового моделирования и искусственного интеллекта</h3>
+          <p>
+            Технологии цифрового моделирования и искусственного интеллекта представляют собой важную сферу
+            современной информационной технологии. Цифровое моделирование позволяет создавать виртуальные представления
+            объектов и систем, а искусственный интеллект обеспечивает возможность создания умных систем, способных
+            анализировать данные, принимать решения и выполнять задачи, ранее считавшиеся чисто человеческими.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Цифровизация и программное обеспечение корпоративных информационных систем</h3>
+          <p>
+            Цифровизация корпоративных информационных систем играет ключевую роль в современном бизнесе, позволяя
+            предприятиям эффективно управлять своей информацией и оптимизировать бизнес-процессы. Наши программы в области
+            цифровизации и программного обеспечения корпоративных информационных систем предоставляют студентам
+            технологические инструменты и стратегии, необходимые для успешного внедрения и поддержки информационных
+            систем в организации любого масштаба.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция о кампусе -->
+    <section class="campus">
+      <h1>Деканат</h1>
+      <p>
+        Добро пожаловать в деканат! Наша команда готова помочь вам во всех вопросах, связанных с образованием и
+            учебным процессом. Не стесняйтесь обращаться с любыми запросами или вопросами. Мы здесь, чтобы обеспечить
+            вас поддержкой и помощью на пути к успеху в вашем обучении.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="assets/london.jpg" alt="Кампус" />
+          <div class="layer">
+            <h3>Королёв Павел Александрович</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="assets/newyork.jpg" alt="Кампус" />
+          <div class="layer">
+            <h3>Макарова Наталья Александровна</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="assets/washington.jpg" alt="Кампус" />
+          <div class="layer">
+            <h3>Данько Денис Игоревич</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+   
+
+    <!-- Секция отзывов -->
+    <section class="testi">
+      <h3>Что говорят наши студенты</h3>
+      <p>
+        Мы рады предоставить вам отзывы студентов, которые даже не были в нашем ВУЗе, но с радостью заработали 200 рублей за отзыв
+      </p>
+      <div class="row">
+        <div class="testi-col">
+          <img src="assets/user1.jpg" alt="Пользователь 1" />
+          <div>
+            <p>
+              шарага кайф!
+              <h3>ДимОчка Пусев</h3>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-regular fa-star"></i>
+            </p>
+          </div>
+        </div>
+        <div class="testi-col">
+          <img src="assets/user2.jpg" alt="Пользователь 2" />
+          <div>
+            <p>
+              мема не будет мат запрещен
+              <h3>Шалтай Болтай</h3>
+               <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+              <i class="fa fa-solid fa-star"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция призыва к действию -->
+    <section class="main-section">
+      <!-- Внешняя секция с черным фоном -->
+      <section class="cta">
+        <!-- Внутренняя секция с содержимым -->
+        <div class="inner-cta">
+          <h1>Поступи на дистанционную форму обучения <br> откуда угодно в мире</h1>
+          <a href="" class="hero-btn">СВЯЖИТЕСЬ С НАМИ</a>
+        </div>
+      </section>
+    </section>
+    
+
+    <!-- Футер -->
+    <section class="footer">
+      <h4>О нас</h4>
+      <p>Карбюратор, инжектор, инспектор проректор, ИК-порт, блютуз, туз, козырь, валет, дама, румба, сальса, танго, манго, Мис Бахар, сеть магазинов "Сабина", сисле, Элвис Пресли, Джек Дэниелс, Уолт Дисней, Френсис Форд Коппола, акапелла, опера, хор, нейша хор, винзавод, Новый Год, Новруз Байрам, День Независимости, Праздник Св. Патрика.
+     </p>
+      <div class="icons">
+        <i class="fa fa-brands fa-facebook"></i>
+        <i class="fa fa-brands fa-instagram"></i>
+        <i class="fa fa-brands fa-twitter"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+      </div>
+      
+    </section>
+
+    <script>
+      // Для переключения меню
+      const navlinks = document.getElementById("nav-links");
+      function showMenu() {
+        navlinks.style.right = "0px";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

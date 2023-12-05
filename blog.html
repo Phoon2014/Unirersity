@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universtiy</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/95c8bfd2c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="./index.html">ГЛАВНАЯ</a>
+            </li>
+            <li><a href="./about.html">ОБ ИНСТИТУТЕ</a></li>
+            <li><a href="./course.html">КАФЕДРЫ</a></li>
+            <li><a href="./blog.html">БЛОГ</a></li>
+            <li><a href="./contact.html">КОНТАКТЫ</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Наши Статьи в 2023</h1>
+    </section>
+
+    <!-- blog page content  -->
+    <div class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./assets/certificate.jpg" alt="Certificate" />
+          <h2>👥 ГОСТИ НА ПРАКТИКЕ 👥</h2>
+          <p>
+            В наш Институт в гости пришли студенты Колледжа связи №54 им. П.М. Вострухина – весь декабрь они будут проходить производственную практику в подразделениях нашего Университета 😎
+
+            Ребята объединятся в 10 команд и под руководством кураторов из числа студентов Университета разработают минимум 20 IT-проектов для кафедр ИИТиЦТ, Отдела профориентационной работы и довузовской подготовки, Института открытого образования и развития компетенций и Отдела информатизации образования 🤩
+            
+            Пожелаем ребятами удачи! 🔥
+          </p>
+          <br />
+          
+          <div class="comment-box">
+            <h3>Оставить коментарий</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="ФИО" >
+                <input type="text" placeholder="Email" >
+                <textarea rows="5" placeholder="Коментарий"></textarea>
+                <button type="submit" class="hero-btn red-btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+        
+
+   
+        
+    <script>
+      //for toggle menu
+      const navlinks = document.getElementById("nav-links");
+      function showMenu() {
+        navlinks.style.right = "0px";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
